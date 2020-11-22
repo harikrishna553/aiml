@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+    <category>
+        <pattern>IS 
+            <set>colors</set> A COLOR
+        </pattern>
+        <template>Yes, 
+            <star /> is a color.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>IS * A COLOR</pattern>
+        <template>No, 
+            <star /> is not a color.
+        </template>
+    </category>
+    
+</aiml>

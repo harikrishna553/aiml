@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+		<pattern>My name is *</pattern>
+		<template>
+			Hello <set name = "userName"><star /></set>, welcome!!!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>signoff</pattern>
+		<template>
+			Goodbye <get name = "userName"/>, have a nice day!!!!
+		</template>
+	</category>
+	
+</aiml>

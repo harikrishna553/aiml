@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>I like movies</pattern>
+        <template>Do you like comics?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>Do you like comics</that>
+        <template>I do too</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>Do you like comics</that>
+        <template>Really? But I love comics.</template>
+    </category>
+    
+</aiml>
