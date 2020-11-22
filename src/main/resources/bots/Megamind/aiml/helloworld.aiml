@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<!--About me-->
+
+	<category>
+		<pattern>WHAT IS YOUR NAME</pattern>
+		<template>My name is Megamind, I am here to assist you</template>
+	</category>
+	
+</aiml>
