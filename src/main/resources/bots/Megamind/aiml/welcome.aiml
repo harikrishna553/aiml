@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<!--Welcome user-->
+
+	<category>
+		<pattern>Hello Megamind</pattern>
+		<template>Hello User, How are you?</template>
+	</category>
+	
+</aiml>

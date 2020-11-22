@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<!--Welcome user-->
+
+	<category>
+		<pattern>My name is * and I am * years old</pattern>
+		<template>Hello <star index = "1" />, You are <star index = "2" /> years old. It is nice to chat with you!!</template>
+	</category>
+	
+</aiml>

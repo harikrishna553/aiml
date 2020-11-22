@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>Capital of India</pattern>
+        <template>Capital of India is New Delhi</template>
+    </category>
+    
+     <category>
+        <pattern>Capital of Afghanistan</pattern>
+        <template>Capital of Afghanistan is Kabul</template>
+    </category>
+    
+    <category>
+        <pattern>What is the capital of * </pattern>
+        <template><srai>Capital of <star/></srai></template>
+    </category>
+    
+     <category>
+        <pattern>Can you tell me the capital of * please</pattern>
+        <template><srai>Capital of <star/></srai></template>
+    </category>
+    
+</aiml>
